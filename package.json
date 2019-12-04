@@ -1,0 +1,20 @@
+{
+  "name": "memory-game",
+  "version": "1.0.0",
+  "description": "backend for memory game",
+  "main": "index.js",
+  "author": "Shalu Singhal",
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^6.2.2"
+  }
+}
